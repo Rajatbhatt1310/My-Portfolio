@@ -431,7 +431,7 @@
       color: var(--gold);
     }
 
-    /* ── EDUCATION ── */
+    
     .edu-card {
       background: var(--card);
       border: 1px solid var(--border);
@@ -512,23 +512,15 @@
       font-family: 'DM Mono', monospace;
     }
 
-    /* ── ANIMATIONS ── */
+  
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(24px); }
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    .reveal {
-      opacity: 0;
-      transform: translateY(28px);
-      transition: opacity 0.55s ease, transform 0.55s ease;
-    }
-    .reveal.visible {
-      opacity: 1;
-      transform: translateY(0);
-    }
 
-    /* ── RESPONSIVE ── */
+
+ 
     @media (max-width: 768px) {
       .about-grid { grid-template-columns: 1fr; }
       .skills-grid { grid-template-columns: 1fr; }
